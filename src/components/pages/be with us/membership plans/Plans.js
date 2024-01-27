@@ -19,11 +19,11 @@ export const Plans = () => {
               <div className="price">
                 <sup>Rs.</sup>10<span> / month</span>
               </div>
-              <img
+              {/* <img
                 src="assets/img/plans-free.png"
                 className="img-fluid"
                 alt="plans"
-              />
+              /> */}
               <ul>
                 <li className="na">Colony Mebership</li>
                 <li className="na">Kali Mandir Membership</li>
@@ -45,11 +45,11 @@ export const Plans = () => {
               <div className="price">
                 <sup>Rs.</sup>20<span> / month</span>
               </div>
-              <img
+              {/* <img
                 src="assets/img/plans-starter.png"
                 className="img-fluid"
                 alt="plans"
-              />
+              /> */}
               <ul>
                 <li className="na">Colony Mebership</li>
                 <li className="na">Kali Mandir Membership</li>
@@ -70,11 +70,11 @@ export const Plans = () => {
               <div className="price">
                 <sup>Rs.</sup>50<span> / month</span>
               </div>
-              <img
+              {/* <img
                 src="assets/img/plans-business.png"
                 className="img-fluid"
                 alt="plans"
-              />
+              /> */}
               <ul>
                 <li>Colony Mebership</li>
                 <li className="na">Kali Mandir Membership</li>
@@ -95,11 +95,11 @@ export const Plans = () => {
               <div className="price">
                 <sup>Rs.</sup>100<span> / month</span>
               </div>
-              <img
+              {/* <img
                 src="assets/img/plans-ultimate.png"
                 className="img-fluid"
                 alt="plans"
-              />
+              /> */}
               <ul>
                 <li>Colony Mebership</li>
                 <li>Kali Mandir Membership</li>

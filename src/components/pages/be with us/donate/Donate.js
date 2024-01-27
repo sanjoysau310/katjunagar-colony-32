@@ -19,11 +19,11 @@ export const Donate = () => {
               <div className="price">
                 <sup>Rs.</sup>999
               </div>
-              <img
+              {/* <img
                 src="assets/img/donate-free.png"
                 className="img-fluid"
                 alt="plans"
-              />
+              /> */}
               <ul>
                 <li className="na">Donate for Colony Committee</li>
                 <li>Donate for Kali Mandir</li>
@@ -45,11 +45,11 @@ export const Donate = () => {
               <div className="price">
                 <sup>Rs.</sup>2999
               </div>
-              <img
+              {/* <img
                 src="assets/img/donate-business.png"
                 className="img-fluid"
                 alt="plans"
-              />
+              /> */}
               <ul>
                 <li className="na">Donate for Colony Committee</li>
                 <li>Donate for Kali Mandir</li>
@@ -70,11 +70,11 @@ export const Donate = () => {
               <div className="price">
                 <sup>Rs.</sup>4999
               </div>
-              <img
+              {/* <img
                 src="assets/img/donate-ultimate.png"
                 className="img-fluid"
                 alt="plans"
-              />
+              /> */}
               <ul>
                 <li>Donate for Colony Committee</li>
                 <li>Donate for Kali Mandir</li>

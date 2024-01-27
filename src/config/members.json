@@ -2,7 +2,7 @@
     "departments": [
         {
             "id": 1,
-            "name": "কাটজুনগর কলোনি কমিটি",
+            "name": "Katjunagar Colony Committee",
             "keyMembers": [
                 {
                     "id": 1,
@@ -24,31 +24,31 @@
                 },
                 {
                     "id": 4,
-                    "name": "তমাল রঞ্জন সিংহ",
-                    "designation": "সম্পাদক",
-                    "duration": "2023-বর্তমান"
+                    "name": "Tamal Ranjan Singha",
+                    "designation": "Secretary",
+                    "duration": "2023-Present"
                 },
                 {
                     "id": 5,
                     "name": "Dipankar Dutta",
-                    "designation": "Associate Editor",
+                    "designation": "Assistant Secretary",
                     "duration": "2023-Present"
                 },
                 {
                     "id": 6,
-                    "name": "অনিরুদ্ধ দে চৌধুরী",
-                    "designation": "কোষাধ্যক্ষ",
-                    "duration": "2023-বর্তমান"
+                    "name": "Anirudhha Dey Chowdhury",
+                    "designation": "Treasurer",
+                    "duration": "2023-Present"
                 }
             ]
         },
         {
             "id": 2,
-            "name": "কাটজুনগর কালী মন্দির",
+            "name": "Katjungar Kali Mandir",
             "keyMembers": [
                 {
                     "id": 1,
-                    "name": "তমাল রঞ্জন সিংহ",
+                    "name": "Tamal Ranjan Singha",
                     "designation": "President",
                     "duration": "2023-Present"
                 },
@@ -61,26 +61,26 @@
                 {
                     "id": 3,
                     "name": "Bibek Basu Moulik",
-                    "designation": "General Editor",
+                    "designation": "General Secretary",
                     "duration": "2023-Present"
                 },
                 {
                     "id": 4,
                     "name": "Mithun Das",
-                    "designation": "Associate Editor",
+                    "designation": "Assistant Secretary",
                     "duration": "2023-Present"
                 },
                 {
                     "id": 5,
-                    "name": "জহর দে",
-                    "designation": "কোষাধ্যক্ষ",
-                    "duration": "2023-বর্তমান"
+                    "name": "Jahar Dey",
+                    "designation": "Treasurer",
+                    "duration": "2023-Present"
                 },
                 {
                     "id": 6,
                     "name": "Mukulika Chakraborty, Kasturi Nag",
                     "designation": "Care Taker",
-                    "duration": "2023-বর্তমান"
+                    "duration": "2023-Present"
                 }
             ]
         },
@@ -114,7 +114,7 @@
                 },
                 {
                     "id": 2,
-                    "name": "Goutam Roy Choudhury",
+                    "name": "Goutam Roy Chowdhury",
                     "designation": "Secratary",
                     "duration": "2023-Present"
                 }

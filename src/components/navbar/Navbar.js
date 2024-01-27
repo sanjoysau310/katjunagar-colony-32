@@ -30,7 +30,7 @@ export const Navbar = () => {
         <li className="dropdown">
           <NavLink to="events" className="nav-link scrollto" onClick={closeNav}>
             Events
-            <i className="fa fa-chevron-down" />
+            {/* <i className="fa fa-chevron-down" /> */}
           </NavLink>
           <ul>
             <li>

@@ -1,20 +1,17 @@
 import React, { useEffect, useState } from "react";
-import banner1 from "../../../assets/images/landing/75th-4.png";
-import banner2 from "../../../assets/images/landing/75th-5.png";
-import logo1 from "../../../assets/images/logo/logo1.png";
+import banner1 from "../../../assets/images/landing/banner1.png";
+import banner2 from "../../../assets/images/landing/banner2.png";
+import logo1 from "../../../assets/images/landing/logo1.png";
+import banner3 from "../../../assets/images/landing/banner3.png";
+import banner4 from "../../../assets/images/landing/banner4.png";
+import banner5 from "../../../assets/images/landing/banner5.png";
 
 import "./landingPage.css";
 import { Link } from "react-router-dom";
+import ImageSlider from "./ImageSlider";
 
 export const LandingPage = () => {
-  const [flag, setFlag] = useState(true);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFlag(!flag);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [flag]);
+  const images = [logo1, banner2, banner4, banner1, banner3, banner5];
   return (
     <section id="hero" className="hero d-flex align-items-center">
       <div className="container">
@@ -41,11 +38,12 @@ export const LandingPage = () => {
             className="col-lg-6 hero-img"
             data-aos="zoom-out"
             data-aos-delay={200}>
-            {flag ? (
+            {/* {flag ? (
               <img src={banner1} className="img-fluid" alt="banner1" />
             ) : (
               <img src={logo1} className="img-fluid" alt="banner2" />
-            )}
+            )} */}
+            <ImageSlider images={images} />
           </div>
         </div>
       </div>

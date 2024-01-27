@@ -38,8 +38,8 @@
     overflow: hidden;
     z-index: 1;
     background: rgba(255, 255, 255, 0.75);
-    width: 330px;
-    height: 220px;
+    width: 400px;
+    height: 240px;
 }
 
 .gallery .gallery-wrap::before {
@@ -169,4 +169,16 @@
 .gallery .gallery-wrap:hover .gallery-info::after {
     bottom: 15px;
     right: 15px;
+}
+
+@media (max-width: 768px) {
+    .gallery .gallery-wrap {
+        transition: 0.3s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.75);
+        width: 335px;
+        height: 220px;
+    }
 }

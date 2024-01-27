@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-import about from "../../../assets/images/gallery/gallery3.jpg";
+import gallery3 from "../../../assets/images/gallery/gallery3.jpg";
+import gallery10 from "../../../assets/images/gallery/gallery10.jpg";
 import "./about.css";
 import { Link } from "react-router-dom";
 
 export const About = () => {
+  const [flag, setFlag] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFlag(!flag);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [flag]);
   return (
     <div>
       <section id="about" className="about">
@@ -42,10 +51,14 @@ export const About = () => {
               </div>
             </div>
             <div
-              className="col-lg-6 d-flex align-items-center"
+              className="col-lg-6 d-flex align-items-center about-img"
               data-aos="zoom-out"
               data-aos-delay={200}>
-              <img src={about} className="img-fluid" alt="about" />
+              {flag ? (
+                <img src={gallery10} className="img-fluid" alt="banner1" />
+              ) : (
+                <img src={gallery3} className="img-fluid" alt="banner2" />
+              )}
             </div>
           </div>
         </div>
