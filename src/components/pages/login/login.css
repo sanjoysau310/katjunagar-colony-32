@@ -18,10 +18,17 @@
         font-weight: 600;
     }
 
+    .login .login-form .error-message i {
+        color: #ed3c0d;
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+
     .login .login-form .sent-message {
         display: none;
-        color: #fff;
-        background: #18d26e;
+        color: #18d26e;
         text-align: center;
         padding: 15px;
         margin-bottom: 24px;

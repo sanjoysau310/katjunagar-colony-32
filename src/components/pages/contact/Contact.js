@@ -30,30 +30,27 @@ export const Contact = () => {
               </div>
               <div className="col-md-6">
                 <div className="info-box">
-                <a href="tel:+916289674153" className="text-info">
-                  <i className="fa-solid fa-phone mt-4 fa-2x" />
-                </a>
+                  <a href="tel:+919836167970" className="text-info">
+                    <i className="fa-solid fa-phone mt-4 fa-2x" />
+                  </a>
                   <h3>Call Us</h3>
                   <p>
-                    +91 999 999 9999
+                    +91-9836167970
                     <br />
-                    +91 888 888 8888
                   </p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="info-box">
-                <a
-                  href="mailto:musketeerspremierleague@gmail.com"
-                  className="text-info"
-                >
-                  <i className="fa-solid fa-envelope mt-4 fa-2x" />
-                </a>
+                  <a
+                    href="mailto:musketeerspremierleague@gmail.com"
+                    className="text-info">
+                    <i className="fa-solid fa-envelope mt-4 fa-2x" />
+                  </a>
                   <h3>Email Us</h3>
                   <p>
-                    katjunagar.colony32@gmail.com
+                    katjunagarcolony32@gmail.com
                     <br />
-                    katjunagar-colony.32@gmail.com
                   </p>
                 </div>
               </div>
@@ -62,9 +59,9 @@ export const Contact = () => {
                   <i className="fas fa-clock" />
                   <h3>Open Hours</h3>
                   <p>
-                    Monday - Friday
+                    Monday - Saturday
                     <br />
-                    9:00AM - 05:00PM
+                    11:00AM - 09:00PM
                   </p>
                 </div>
               </div>

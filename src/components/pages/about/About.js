@@ -1,7 +1,8 @@
 import React from "react";
 
-import about from "../../../assets/images/landing/hero-img.png";
+import about from "../../../assets/images/gallery/gallery3.jpg";
 import "./about.css";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -15,9 +16,7 @@ export const About = () => {
               data-aos-delay={200}>
               <div className="content">
                 <h3>Who We Are</h3>
-                <h2>
-                    Katjunagar Colony 32
-                </h2>
+                <h2>Katjunagar Colony 32</h2>
                 <p>
                   Katjunagar is a neighbourhood located in South Kolkata in the
                   city of Kolkata, West Bengal, India. The adjacent
@@ -33,12 +32,12 @@ export const About = () => {
                   station and 8B Bus Stand.
                 </p>
                 <div className="text-center text-lg-start">
-                  <a
-                    href="#"
+                  <Link
+                    to="/contact"
                     className="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                    <span>Read More</span>
-                    <i className="bi bi-arrow-right" />
-                  </a>
+                    <span>Know More</span>
+                    <i className="fa fa-arrow-right" />
+                  </Link>
                 </div>
               </div>
             </div>

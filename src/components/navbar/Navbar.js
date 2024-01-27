@@ -1,50 +1,94 @@
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
-import React from "react";
+import React, { useState } from "react";
 
 export const Navbar = () => {
+  const [navClass, setNavClass] = useState("navbar");
+  const toggleNav = () => {
+    navClass === "navbar"
+      ? setNavClass("navbar-mobile")
+      : setNavClass("navbar");
+  };
+
+  const closeNav = () => {
+    setNavClass("navbar");
+  };
   return (
-    <nav id="navbar" className="navbar">
+    <nav id="navbar" className={navClass}>
       <ul>
         <li>
-          <NavLink to="" className="nav-link scrollto">
+          <NavLink to="" className="nav-link scrollto" onClick={closeNav}>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="about" className="nav-link scrollto">
+          <NavLink to="about" className="nav-link scrollto" onClick={closeNav}>
             About
           </NavLink>
         </li>
-        <li>
-          <NavLink to="events" className="nav-link scrollto">
-            Events
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="gallery" className="nav-link scrollto">
-            Gallery
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="members" className="nav-link scrollto">
-            Members
-          </NavLink>
-        </li>
         <li className="dropdown">
-          <NavLink to="bewithus" className="nav-link scrollto">
-            Be with us
+          <NavLink to="events" className="nav-link scrollto" onClick={closeNav}>
+            Events
             <i className="fa fa-chevron-down" />
           </NavLink>
           <ul>
             <li>
-              <NavLink to="register" className="nav-link scrollto">
+              <NavLink
+                to="upcomingEvents"
+                className="nav-link scrollto"
+                onClick={closeNav}>
+                Upcoming
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="gallery"
+                className="nav-link scrollto"
+                onClick={closeNav}>
+                Gallery
+              </NavLink>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <NavLink
+            to="members"
+            className="nav-link scrollto"
+            onClick={closeNav}>
+            Members
+          </NavLink>
+        </li>
+        <li className="dropdown">
+          <NavLink
+            to="bewithus"
+            className="nav-link scrollto"
+            onClick={closeNav}>
+            Be with us
+            {/* <i className="fa fa-chevron-down" /> */}
+          </NavLink>
+          <ul>
+            <li>
+              <NavLink
+                to="register"
+                className="nav-link scrollto"
+                onClick={closeNav}>
                 Join Us
               </NavLink>
             </li>
             <li>
-              <NavLink to="donate" className="nav-link scrollto">
+              <NavLink
+                to="plans"
+                className="nav-link scrollto"
+                onClick={closeNav}>
+                Membership Plans
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="donate"
+                className="nav-link scrollto"
+                onClick={closeNav}>
                 Donate
               </NavLink>
             </li>
@@ -105,17 +149,27 @@ export const Navbar = () => {
         </li>
          */}
         <li>
-          <NavLink to="contact" className="nav-link scrollto">
+          <NavLink
+            to="contact"
+            className="nav-link scrollto"
+            onClick={closeNav}>
             Contact
           </NavLink>
         </li>
         <li>
-          <NavLink to="login" className="getstarted scrollto">
+          <NavLink
+            to="login"
+            className="getstarted scrollto"
+            onClick={closeNav}>
             Login
           </NavLink>
         </li>
       </ul>
-      <i className="bi bi-list mobile-nav-toggle" />
+      {navClass === "navbar" ? (
+        <i className="fa fa-bars mobile-nav-toggle" onClick={toggleNav} />
+      ) : (
+        <i className="fa fa-times mobile-nav-toggle" onClick={toggleNav} />
+      )}
     </nav>
   );
 };

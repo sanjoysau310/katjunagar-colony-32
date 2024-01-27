@@ -1,0 +1,22 @@
+{
+    "login": [
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "admin",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "username": "sadmin",
+            "password": "sadmin",
+            "role": "super-admin"
+        },
+        {
+            "id": 3,
+            "username": "member",
+            "password": "member",
+            "role": "member"
+        }
+    ]
+}

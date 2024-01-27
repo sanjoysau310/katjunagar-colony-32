@@ -1,0 +1,124 @@
+{
+    "departments": [
+        {
+            "id": 1,
+            "name": "কাটজুনগর কলোনি কমিটি",
+            "keyMembers": [
+                {
+                    "id": 1,
+                    "name": "Bhabatosh Das",
+                    "designation": "President",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 2,
+                    "name": "Sadhan Basu",
+                    "designation": "Vice President",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 3,
+                    "name": "Gopa Roy Choudhury",
+                    "designation": "Vice President",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 4,
+                    "name": "তমাল রঞ্জন সিংহ",
+                    "designation": "সম্পাদক",
+                    "duration": "2023-বর্তমান"
+                },
+                {
+                    "id": 5,
+                    "name": "Dipankar Dutta",
+                    "designation": "Associate Editor",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 6,
+                    "name": "অনিরুদ্ধ দে চৌধুরী",
+                    "designation": "কোষাধ্যক্ষ",
+                    "duration": "2023-বর্তমান"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "কাটজুনগর কালী মন্দির",
+            "keyMembers": [
+                {
+                    "id": 1,
+                    "name": "তমাল রঞ্জন সিংহ",
+                    "designation": "President",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 2,
+                    "name": "Mrinal Chowdhury",
+                    "designation": "Vice President",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 3,
+                    "name": "Bibek Basu Moulik",
+                    "designation": "General Editor",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 4,
+                    "name": "Mithun Das",
+                    "designation": "Associate Editor",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 5,
+                    "name": "জহর দে",
+                    "designation": "কোষাধ্যক্ষ",
+                    "duration": "2023-বর্তমান"
+                },
+                {
+                    "id": 6,
+                    "name": "Mukulika Chakraborty, Kasturi Nag",
+                    "designation": "Care Taker",
+                    "duration": "2023-বর্তমান"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Jagriti Sangha",
+            "keyMembers": [
+                {
+                    "id": 1,
+                    "name": "Tapu Moulik",
+                    "designation": "President",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 2,
+                    "name": "Manas Das",
+                    "designation": "Secratary",
+                    "duration": "2023-Present"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Library",
+            "keyMembers": [
+                {
+                    "id": 1,
+                    "name": "Swapan Chakraborty",
+                    "designation": "President",
+                    "duration": "2023-Present"
+                },
+                {
+                    "id": 2,
+                    "name": "Goutam Roy Choudhury",
+                    "designation": "Secratary",
+                    "duration": "2023-Present"
+                }
+            ]
+        }
+    ]
+}

@@ -15,15 +15,25 @@
 }
 
 .header .logo img {
-    max-height: 40px;
+    max-height: 50px;
     margin-right: 6px;
 }
 
 .header .logo span {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1px;
     color: #012970;
     font-family: "Nunito", sans-serif;
     margin-top: 3px;
+}
+
+@media (max-width: 768px) {
+    .header .logo span {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #012970;
+        font-family: "Nunito", sans-serif;
+        margin-top: 3px;
+    }
 }
